@@ -359,6 +359,8 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       margin-bottom: 10px;
+      display: flex;
+     justify-content:flex-start ;
     }
 
     .benefit-content h1 {
@@ -366,6 +368,8 @@
       font-weight: 700;
       color: #000;
       margin-bottom: 30px;
+      display: flex;
+       justify-content: flex-start;
     }
 
     .benefit-list {
@@ -398,9 +402,13 @@
       .benefit-content {
         order: 2;
       }
-
+          .benefit-content h5{
+            justify-content: center;
+          }
        .benefit-list {
-    align-items: flex-start;
+        display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .benefit-item {
@@ -413,6 +421,7 @@
     height: 18px;
     flex-shrink: 0;
     margin-top: 2px; 
+    justify-content: center;
   }
     }
 /* benifits section css  end  */
